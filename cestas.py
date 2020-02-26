@@ -58,3 +58,11 @@ for i in two_sup:
 
 print('PARES DE PRODUCTOS FRECUENTES: ')
 print(list(filt_two_sup.keys()))
+
+sum = 0
+
+for i in div.keys():
+  sum += len(div[i])
+
+print('SUMA DE LAS CESTAS: ')
+print(sum)
